@@ -1,8 +1,10 @@
+'use client'
+
 import { Product } from '@/app/products/products.types'
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 
-type ProductCar = {
+export type ProductCar = {
   product: Product
   amount: number
 }

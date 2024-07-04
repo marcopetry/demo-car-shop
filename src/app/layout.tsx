@@ -30,7 +30,9 @@ export default function RootLayout({
           </div>
         </header>
         {children}
-        <footer className="bg-black p-10">Footer dos produtos layout root</footer>
+        <footer className="bg-black p-10 fixed w-full" style={{ bottom: 0, right: 0, left: 0 }}>
+          <p style={{ color: 'white' }}>Footer dos produtos layout root</p>
+        </footer>
       </body>
     </html>
   )
